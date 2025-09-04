@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sheet Music</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+
+    <!-- Main Content Container -->
+    <div class="bg-white rounded-xl shadow-lg p-8 w-full max-w-2xl text-center">
+        <h1 class="text-4xl font-semibold text-gray-800 mb-4">Filipino Propers Project</h1>
+        <p class="text-gray-600 mb-8">
+            List of Propers for the Mass in Tagalog. Compiled by Michael Balerite.
+        </p>
+
+        <!-- PDF Links Section -->
+        <div class="space-y-4">
+            <!--
+            INSTRUCTIONS:
+            To add a new Sunday or a new PDF:
+            1. Copy one of the "Sunday Container" blocks below.
+            2. Change the text inside the <button> to the name of the Sunday.
+            3. Inside the <div>, copy the link block and change the href and text.
+            4. The href must match the name of the PDF file you uploaded to GitHub.
+            -->
+
+            <!-- Sunday Container 1 -->
+            <div>
+                <button class="sunday-toggle flex justify-between items-center w-full py-3 px-6 text-xl font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-200 shadow-md">
+                    <span>1st Sunday of Advent / Unang Linggo sa Panahon ng Pagdating ng Panginoon</span>
+                    <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+                <div class="sunday-content hidden mt-2 space-y-2">
+                    <a href="1st Advent Tagalog INTROIT" class="block w-full py-3 px-6 text-lg font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200">Introit</a>
+                </div>
+               <div class="sunday-content hidden mt-2 space-y-2">
+                    <a href="1st Advent Tagalog COMMUNION.pdf" class="block w-full py-3 px-6 text-lg font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200">Communion</a>
+                </div>
+            </div>
+
+            <!-- Sunday Container 2 -->
+            <div>
+                <button class="sunday-toggle flex justify-between items-center w-full py-3 px-6 text-xl font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-200 shadow-md">
+                    <span>2nd Sunday of Advent / Ikalawang Linggo sa Panahon ng Pagdating ng Panginoon</span>
+                    <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+                <div class="sunday-content hidden mt-2 space-y-2">
+                    <a href="2nd Advent Tagalog INTROIT" class="block w-full py-3 px-6 text-lg font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200">Introit</a>
+                </div>
+               <div class="sunday-content hidden mt-2 space-y-2">
+                    <a href="2nd Advent Tagalog COMMUNION" class="block w-full py-3 px-6 text-lg font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200">Communion</a>
+                </div>
+            </div>
+
+             <!-- Sunday Container 3 -->
+            <div>
+                <button class="sunday-toggle flex justify-between items-center w-full py-3 px-6 text-xl font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-200 shadow-md">
+                    <span>3rd Sunday of Advent / Ikatlong Linggo sa Panahon ng Pagdating ng Panginoon</span>
+                    <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+                <div class="sunday-content hidden mt-2 space-y-2">
+                    <a href="3rd Advent Tagalog INTROIT.pdf" class="block w-full py-3 px-6 text-lg font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200">Introit</a>
+                </div>
+               <div class="sunday-content hidden mt-2 space-y-2">
+                    <a href="3rd Advent Tagalog COMMUNION.pdf" class="block w-full py-3 px-6 text-lg font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200">Communion</a>
+                </div>
+            </div>
+
+            <p class="text-sm text-gray-500 mt-8">
+                <a href="mcbdoessacredmusic.github.io">Filipino Propers Project</a> © 2025 by <a href="https://creativecommons.org">Michael Castigador Balerite</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+                <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggles = document.querySelectorAll('.sunday-toggle');
+
+            toggles.forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('svg');
+
+                    if (content.classList.contains('hidden')) {
+                        content.classList.remove('hidden');
+                        icon.classList.remove('rotate-0');
+                        icon.classList.add('rotate-180');
+                    } else {
+                        content.classList.add('hidden');
+                        icon.classList.remove('rotate-180');
+                        icon.classList.add('rotate-0');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
