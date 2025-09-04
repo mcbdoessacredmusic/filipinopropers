@@ -54,12 +54,12 @@
                             {
                                 title: "Introit for Advent I",
                                 description: "The Introit for the First Sunday of Advent.",
-                                pdfPath: "advent_i_introit.pdf" 
+                                pdfPath: "1st Advent Tagalog INTROIT.pdf" 
                             },
                             {
                                 title: "Communion for Advent I",
                                 description: "The Communion for the First Sunday of Advent.",
-                                pdfPath: "advent_i_communion.pdf"
+                                pdfPath: "1st Advent Tagalog COMMUNION.pdf"
                             }
                         ]
                     },
@@ -69,12 +69,12 @@
                             {
                                 title: "Introit for Advent II",
                                 description: "The Introit for the Second Sunday of Advent.",
-                                pdfPath: "advent_ii_introit.pdf"
+                                pdfPath: "2nd Advent Tagalog INTROIT.pdf"
                             },
                             {
                                 title: "Communion for Advent II",
                                 description: "The Communion for the Second Sunday of Advent.",
-                                pdfPath: "advent_ii_communion.pdf"
+                                pdfPath: "2nd Advent Tagalog COMMUNION.pdf"
                             }
                         ]
                     }
